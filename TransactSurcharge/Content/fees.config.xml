@@ -1,0 +1,17 @@
+<fees>
+	<fee>
+		<minAmount>1</minAmount>
+		<maxAmount>5000</maxAmount>
+		<feeAmount>10</feeAmount>
+	</fee>
+	<fee>
+		<minAmount>5001</minAmount>
+		<maxAmount>50000</maxAmount>
+		<feeAmount>25</feeAmount>
+	</fee>
+	<fee>
+		<minAmount>50001</minAmount>
+		<maxAmount>999999999</maxAmount>
+		<feeAmount>50</feeAmount>
+	</fee>
+</fees>

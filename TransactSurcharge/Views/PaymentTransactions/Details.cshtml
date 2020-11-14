@@ -1,0 +1,82 @@
+﻿@model TransactSurcharge.Models.PaymentTransaction
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PaymentTransaction</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TransRef)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TransRef)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubscriptionType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubscriptionType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubscriptionDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubscriptionDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TransferAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TransferAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Charge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Charge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DebitAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DebitAmount)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
